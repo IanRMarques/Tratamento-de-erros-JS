@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Bootstrap 5 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid p-5 bg-primary text-white text-center">
+  <h1>Aprendendo Try/Catch/Finally/Throw</h1>
+  <p>Página desenvolvida na aula de Linguagem de Programação para aprendermos Try/Catch/Finally/Throw</p> 
+</div>
+  
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Envio de arquivo</h3>
+      <p>Nesse campo, ao colocar um arquivo, será feita a leitura do arquivo de texto e será mostrado seu conteúdo abaixo</p>
+      <p>Escolha o arquivo e clique no botão para fazer a leitura do arquivo</p>
+      <div class="input-group">
+        <input type="file" class="form-control" id="inputfile" aria-describedby="inputGroupFileAddon04" aria-label="Upload" name="inputfile">
+        <button class="btn btn-dark" type="button" id="inputfilebutton">Ler arquivo</button>
+        <pre id="output"></pre>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <h3>Campo de entrada de números</h3>
+      <p>O campo de texto abaixo será utilizado para entrada de números.</p>
+      <p>Digite um número no intervalo de 5 a 10:</p>
+      <div class="input-group">
+        <input type="input" placeholder="Número de 5 a 10" class="form-control" id="inputnumber" aria-describedby="inputGroupFileAddon04" aria-label="Upload" name="inputnumber">
+        <button class="btn btn-dark" type="button" id="inputnumberbutton">Enviar</button><br>
+        <pre id="outputnumber"></pre>
+        <pre id="outputnumber2"></pre>
+
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3>        
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+  </div>
+</div>
+</body>
+<script src="code.js"></script> 
+</html>
