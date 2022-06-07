@@ -30,7 +30,7 @@ function clickNumberButton(){
         if(number == ''){
             throw 'Informe um valor'
         }
-        else if(parseInt(number) < 5 || parseInt(number) > 10){
+        else if(parseInt(number) <= 5 || parseInt(number) >= 10){
             throw 'Informe um valor maior que 5 e menor que 10'
         }
 
